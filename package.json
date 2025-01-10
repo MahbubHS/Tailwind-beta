@@ -1,0 +1,16 @@
+{
+  "name": "tailwind",
+  "version": "1.0.0",
+  "description": "Tailwind css",
+  "main": "index.html",
+  "scripts": {
+    "test": "npx tailwindcss@next -i ./tailwind.css -o ./full-tailwind.css"
+  },
+  "author": "saad",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^4.0.0-beta.9"
+  }
+}
