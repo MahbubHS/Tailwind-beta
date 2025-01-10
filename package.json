@@ -4,7 +4,8 @@
   "description": "Tailwind css",
   "main": "index.html",
   "scripts": {
-    "test": "npx tailwindcss@next -i ./tailwind.css -o ./full-tailwind.css"
+    "test": "npx tailwindcss@next -i ./tailwind.css -o ./full-tailwind.css",
+    "build": "tailwindcss -i ./tailwind.css -o ./full-tailwind.css"
   },
   "author": "saad",
   "license": "ISC",
@@ -12,5 +13,8 @@
     "autoprefixer": "^10.4.20",
     "postcss": "^8.4.49",
     "tailwindcss": "^4.0.0-beta.9"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.0.0-beta.9"
   }
 }
